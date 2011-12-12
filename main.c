@@ -13,7 +13,7 @@ int main(void)
 	srand(time(NULL)); //seed random time
 
 	for(int i=0;i<N;i++)
-		vec=VecAdd(vec,rand()%100000); //vazoume ena tyxaio arithmo ews to 1000
+		vec=VecAdd(vec,rand()%100000); //vazoume ena tyxaio arithmo ews to 100000
 	//  Emfanizoume ton pinaka an theloume na tsekaroume tis tims toy!
 	// for(int i=0;i<N;i++)
 	// 	printf("%d\n",vec->data[i]);
